@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&family=Roboto+Condensed:wght@300&family=Roboto:wght@400;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+body{
+  background-color: rgb(173, 170, 170);
+}
+
+.header{
+  width: 100%;
+  height: 90px;
+  background-color: black;
+  box-shadow: 2px 2px 7px 1px rgba(0, 0, 0, 0.718);
+  padding: 8px 50px 8px 50px ;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 1;
+  top: -100px;
+  margin-top: 100px;
+}
+
+.user{
+  font-size: 60px;
+  color: rgb(139, 139, 139);
+  margin-top: 8px;
+}
+
+.sidebar{
+  width: 230px;
+  background-color: rgb(255, 255, 255);
+  padding: 150px 50px 50px 40px;
+  height: 750px;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 2px 2px 7px 1px rgba(103, 102, 102, 0.718);
+  position: absolute;
+  top: -0px;
+}
+
+.sidebar ul{
+  list-style: none;
+  color: rgb(139, 139, 139);
+}
+
+.sidebar ul li{
+  margin-bottom: 30px ;
+  transition: 0.5s;
+}
+
+.sidebar ul li:hover{
+  margin-bottom: 30px ;
+  color: black;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.links{
+  text-decoration: none;
+  color: black;
+}
+.geral{
+  margin: 120px 20px 0px 250px;
+}
+
+.geral h1 {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 7px 1px rgba(103, 102, 102, 0.718);
+  text-align: center;
+}
+.cards{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.card{
+  width: 300px;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 7px 1px rgba(103, 102, 102, 0.718);
+  
+}
+ 
