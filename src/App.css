@@ -38,7 +38,7 @@ body{
   width: 230px;
   background-color: rgb(255, 255, 255);
   padding: 150px 50px 50px 40px;
-  height: 750px;
+  height: 1000px;
   font-size: 18px;
   font-weight: bold;
   box-shadow: 2px 2px 7px 1px rgba(103, 102, 102, 0.718);
@@ -51,22 +51,28 @@ body{
   color: rgb(139, 139, 139);
 }
 
-.sidebar ul li{
+.sidebar ul li {
   margin-bottom: 30px ;
   transition: 0.5s;
 }
 
 .sidebar ul li:hover{
   margin-bottom: 30px ;
-  color: black;
+
   font-size: 20px;
   transition: 0.5s;
 }
 
 .links{
   text-decoration: none;
+  color: rgb(139, 139, 139);
+}
+
+.links:hover{
+  text-decoration: none;
   color: black;
 }
+
 .geral{
   margin: 120px 20px 0px 250px;
 }
@@ -75,6 +81,7 @@ body{
   background-color: rgb(255, 255, 255);
   box-shadow: 2px 2px 7px 1px rgba(103, 102, 102, 0.718);
   text-align: center;
+  color: rgb(139, 139, 139) ;
 }
 .cards{
   width: 100%;
@@ -87,7 +94,29 @@ body{
   width: 300px;
   height: 300px;
   background-color: rgb(255, 255, 255);
-  box-shadow: 2px 2px 7px 1px rgba(103, 102, 102, 0.718);
-  
+  box-shadow: 2px 2px 7px 1px rgba(103, 102, 102, 0.718); 
+  text-align: center;
+  padding-top: 70px;
 }
+
+.card h4{
+  font-size: 25px;
+ 
+}
+
+.linksHome{
+  font-size: 80px;
+  text-decoration: none;
+  color:rgb(139, 139, 139);
+  transition: 0.5s;
+}
+
+.linksHome:hover{
+  font-size: 90px;
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+
+
  
