@@ -2,6 +2,8 @@ import React from "react";
 import '../App.css'
 import { motion } from "framer-motion";
 
+import imagem1 from "../images/img3.jpg"
+
 const Product = () => {
    return(
        <div className="geral">
@@ -21,11 +23,19 @@ const Product = () => {
                 <input type="text" name="price"/>
            </div>
            <div>
+                <label htmlFor="">Tipo</label>
+               <select name="departamento">
+                    <option selected disabled>Selecione</option>
+                    <option value="terno">Terno</option>
+                    <option value="vestido">Vestido</option>
+               </select>
+           </div>
+           <div>
                 <label htmlFor="">Cor</label>
                <select name="departamento">
                     <option selected disabled>Selecione</option>
                     <option value="red">Vermelho</option>
-                    <option value="blue">Azul</option>
+                    <option value="terracotta">Terracota</option>
                     <option value="pink">Rosa</option>
                     <option value="yelow">Amarelho</option>
                     <option value="White">Branco</option>
@@ -55,9 +65,28 @@ const Product = () => {
         </motion.div>
 
         <motion.div className="search">
-            <label htmlFor="">Fazer busca</label>
-            <input type="text"></input>
-            <button>Buscar</button>
+            <div className="searchInter">
+               <label htmlFor="">Fazer busca</label>
+               <input type="text"></input>
+               <button>Buscar</button>
+            </div>
+
+            <div className="cards">
+               <div className="card">
+                    <div>
+                         <img src={imagem1} alt="" />
+                    </div>
+                    <div>
+                         <span>Descricao</span>
+                    </div>
+                    <div>
+                         <span>R$ preço</span>
+                    </div>
+                    <div>
+                         <button>Alugar</button>
+                    </div>
+               </div>
+            </div>
         </motion.div>
            
        </div>
