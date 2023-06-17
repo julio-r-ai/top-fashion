@@ -155,7 +155,58 @@ body{
 .register{
   margin-top: 40px;
   background-color: rgb(255, 255, 255);
-  height: 200px;
+  padding: 30px;
+  gap: 20px;
+}
+
+.register h2{
+  margin-bottom: 20px;
+}
+
+.register div{
+  margin-bottom: 10px;
+}
+
+.registerInterno{
+  width: 500px;
+}
+
+label{
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+input, select{
+  width: 500px;
+  height:30px;
+  font-size: 18px;
+}
+
+button{
+  height: 30px;
+  width: 200px;
+  font-size: 16px;
+  font-weight: bolder;
+  border-radius: 8px;
+  border: none;
+  background-color: black;
+  color: white;
+  transition: 0.1s;
+  margin-left: 7px;
+}
+
+button:hover{
+  height: 31px;
+  width: 203px;
+  font-size: 16px;
+  font-weight: bolder;
+  border-radius: 8px;
+  border: none;
+  background-color: black;
+  color: white;
+  transition: 0.1s;
+  box-shadow: 2px 2px 7px 1px rgba(70, 70, 70, 0.718);
 }
 
 .search{
@@ -164,3 +215,4 @@ body{
   height: 200px;
 }
 
+  
