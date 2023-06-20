@@ -46,6 +46,15 @@ const Home = () => {
             <div className="boxs">
 
                 <motion.div animate={{y:200}} >
+                    <Link className="linksHome"  to="/rents">
+                        <div className="box">
+                            <MdCalendarToday/>
+                            <h4>Acessar Alugueis</h4>
+                        </div>
+                    </Link>
+                </motion.div>  
+
+                <motion.div animate={{y:200}} >
                     <Link className="linksHome"  to="/product">
                         <div className="box">
                             <BsFillArchiveFill/>
@@ -61,16 +70,7 @@ const Home = () => {
                             <h4>Acessar Clientes</h4>
                         </div>
                     </Link>
-                </motion.div>   
-
-                <motion.div animate={{y:200}} >
-                    <Link className="linksHome"  to="/rents">
-                        <div className="box">
-                            <MdCalendarToday/>
-                            <h4>Acessar Alugueis</h4>
-                        </div>
-                    </Link>
-                </motion.div>  
+                </motion.div> 
 
                 <motion.div animate={{y:200}} >
                     <Link className="linksHome"  to="/configuration">

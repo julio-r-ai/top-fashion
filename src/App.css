@@ -230,4 +230,66 @@ button:hover{
   width: 200px;
 }
 
-  
+/* TABELA */
+
+table, th, td{
+  border: 1px solid #eae4e4;
+} 
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr{
+  background-color: #DCDCDC;
+}
+
+th, td{
+  padding: 8px;
+}
+
+th{
+  height: 40px;
+  vertical-align: bottom;
+}
+
+.buttonView{
+  width: 80px;
+  height: 30px;
+  margin-right: 10px;
+  background-color: #6495ED	;
+}
+.buttonView:hover{
+  width: 80px;
+  height: 30px;
+  margin-right: 10px;
+  background-color: #6495ED	;
+}
+
+.buttonEdit{
+  width: 80px;
+  height: 30px;
+  margin-right: 10px;
+  background-color: #DAA520		;
+}
+.buttonEdit:hover{
+  width: 80px;
+  height: 30px;
+  margin-right: 10px;
+  background-color:#DAA520		;
+}
+
+.buttonDelete{
+  width: 80px;
+  height: 30px;
+  margin-right: 10px;
+  background-color: #B22222;
+}
+.buttonDelete:hover{
+  width: 80px;
+  height: 30px;
+  margin-right: 10px;
+  background-color: #B22222;
+}
+

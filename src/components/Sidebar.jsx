@@ -10,9 +10,9 @@ const sidebar = () => {
         <div className='sidebar'>
             <ul>
                 <li><Link className="links" to="/"><ImHome3/>Home</Link></li>
+                <li><Link className="links"  to="/rents"><MdCalendarToday/>Alugueis</Link></li>
                 <li><Link className="links"  to="/product"><BsFillArchiveFill/>Produtos</Link></li>
                 <li><Link className="links"  to="/client"><MdOutlineAccountBox/>Cliente</Link></li>
-                <li><Link className="links"  to="/rents"><MdCalendarToday/>Alugueis</Link></li>
                 <li><Link className="links"  to="/configuration"><TiCog/>Configurações</Link></li>
             </ul>
         </div>

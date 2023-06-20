@@ -2,8 +2,6 @@ import React from "react";
 import '../App.css'
 import { motion } from "framer-motion";
 
-import imagem1 from "../images/img3.jpg"
-
 const Product = () => {
    return(
        <div className="geral">
@@ -71,7 +69,7 @@ const Product = () => {
                <button>Buscar</button>
             </div>
 
-            <div className="cards">
+            {/* <div className="cards">
                <div className="card">
                     <div>
                          <img src={imagem1} alt="" />
@@ -86,10 +84,197 @@ const Product = () => {
                          <button>Alugar</button>
                     </div>
                </div>
-            </div>
-        </motion.div>
+            </div> */}
+
+            <table>
+               <thead>
+                    <tr>
+                         <th>ID</th>
+                         <th>Descricao</th>
+                         <th>Preco</th>
+                         <th>Tipo</th>
+                         <th>Cor</th>
+                         <th>Tamanho</th>
+                         <th>Acoes</th>
+                    </tr>
+               </thead>
+               <tbody>
+                    <tr>
+                        <td>0001</td>
+                        <td>Tomara que caia teste, teste</td>
+                        <td>R$ 180.00</td>
+                        <td>Vestido</td>
+                        <td>Terracota</td>
+                        <td>M</td>
+                        <td>
+                              <button className="buttonView">Abrir</button>
+                              <button className="buttonEdit">Editar</button>
+                              <button className="buttonDelete">Excluir</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>0001</td>
+                        <td>Tomara que caia teste, teste</td>
+                        <td>R$ 180.00</td>
+                        <td>Vestido</td>
+                        <td>Terracota</td>
+                        <td>M</td>
+                        <td>
+                              <button className="buttonView">Abrir</button>
+                              <button className="buttonEdit">Editar</button>
+                              <button className="buttonDelete">Excluir</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>0001</td>
+                        <td>Tomara que caia teste, teste</td>
+                        <td>R$ 180.00</td>
+                        <td>Vestido</td>
+                        <td>Terracota</td>
+                        <td>M</td>
+                        <td>
+                              <button className="buttonView">Abrir</button>
+                              <button className="buttonEdit">Editar</button>
+                              <button className="buttonDelete">Excluir</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>0001</td>
+                        <td>Tomara que caia teste, teste</td>
+                        <td>R$ 180.00</td>
+                        <td>Vestido</td>
+                        <td>Terracota</td>
+                        <td>M</td>
+                        <td>
+                              <button className="buttonView">Abrir</button>
+                              <button className="buttonEdit">Editar</button>
+                              <button className="buttonDelete">Excluir</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>0001</td>
+                        <td>Tomara que caia teste, teste</td>
+                        <td>R$ 180.00</td>
+                        <td>Vestido</td>
+                        <td>Terracota</td>
+                        <td>M</td>
+                        <td>
+                              <button className="buttonView">Abrir</button>
+                              <button className="buttonEdit">Editar</button>
+                              <button className="buttonDelete">Excluir</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>0001</td>
+                        <td>Tomara que caia teste, teste</td>
+                        <td>R$ 180.00</td>
+                        <td>Vestido</td>
+                        <td>Terracota</td>
+                        <td>M</td>
+                        <td>
+                              <button className="buttonView">Abrir</button>
+                              <button className="buttonEdit">Editar</button>
+                              <button className="buttonDelete">Excluir</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>0001</td>
+                        <td>Tomara que caia teste, teste</td>
+                        <td>R$ 180.00</td>
+                        <td>Vestido</td>
+                        <td>Terracota</td>
+                        <td>M</td>
+                        <td>
+                              <button className="buttonView">Abrir</button>
+                              <button className="buttonEdit">Editar</button>
+                              <button className="buttonDelete">Excluir</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>0001</td>
+                        <td>TERRACOTA PLISSADO COM DECOTE CRUZADO</td>
+                        <td>R$ 180.00</td>
+                        <td>Vestido</td>
+                        <td>Terracota</td>
+                        <td>M</td>
+                        <td>
+                              <button className="buttonView">Abrir</button>
+                              <button className="buttonEdit">Editar</button>
+                              <button className="buttonDelete">Excluir</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>001</td>
+                        <td>Tomara que caia teste, teste</td>
+                        <td>R$ 180.00</td>
+                        <td>Vestido</td>
+                        <td>Terracota</td>
+                        <td>M</td>
+                        <td>
+                              <button className="buttonView">Abrir</button>
+                              <button className="buttonEdit">Editar</button>
+                              <button className="buttonDelete">Excluir</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>0001</td>
+                        <td>Tomara que caia teste, teste</td>
+                        <td>R$ 180.00</td>
+                        <td>Vestido</td>
+                        <td>Terracota</td>
+                        <td>M</td>
+                        <td>
+                              <button className="buttonView">Abrir</button>
+                              <button className="buttonEdit">Editar</button>
+                              <button className="buttonDelete">Excluir</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>0001</td>
+                        <td>Tomara que caia teste, teste</td>
+                        <td>R$ 180.00</td>
+                        <td>Vestido</td>
+                        <td>Terracota</td>
+                        <td>M</td>
+                        <td>
+                              <button className="buttonView">Abrir</button>
+                              <button className="buttonEdit">Editar</button>
+                              <button className="buttonDelete">Excluir</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>0001</td>
+                        <td>Tomara que caia teste, teste</td>
+                        <td>R$ 180.00</td>
+                        <td>Vestido</td>
+                        <td>Terracota</td>
+                        <td>M</td>
+                        <td>
+                              <button className="buttonView">Abrir</button>
+                              <button className="buttonEdit">Editar</button>
+                              <button className="buttonDelete">Excluir</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>0001</td>
+                        <td>Tomara que caia teste, teste</td>
+                        <td>R$ 180.00</td>
+                        <td>Vestido</td>
+                        <td>Terracota</td>
+                        <td>M</td>
+                        <td>
+                              <button className="buttonView">Abrir</button>
+                              <button className="buttonEdit">Editar</button>
+                              <button className="buttonDelete">Excluir</button>
+                        </td>
+                    </tr>
+               </tbody>
+            </table>
+
+  
+      </motion.div>
            
-       </div>
+     </div>
    )
 }
 
