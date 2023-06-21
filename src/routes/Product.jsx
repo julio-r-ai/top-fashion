@@ -2,14 +2,17 @@ import React from "react";
 import '../App.css'
 import { motion } from "framer-motion";
 
+
 const Product = () => {
    return(
        <div className="geral">
-        <motion.div animate={{  y: 30 }} transition={{ duration: 0.8 }}>
+        <motion.div className="title" animate={{  y: 30 }} transition={{ duration: 0.8 }}>
             <h1>Produtos</h1>
         </motion.div>
 
-        <motion.div className="register">
+       
+
+        {/* <motion.div className="register">
            <div className="registerInterno">
            <h2>Cadastrar novo produto</h2>
            <div>
@@ -60,9 +63,13 @@ const Product = () => {
                 <button>Cadastrar</button>
            </div>
            </div>
-        </motion.div>
+        </motion.div> */}
 
         <motion.div className="search">
+            <div className="buttonProduto">
+                <button>Incluir produto</button>
+            </div>
+
             <div className="searchInter">
                <label htmlFor="">Fazer busca</label>
                <input type="text"></input>
@@ -107,7 +114,7 @@ const Product = () => {
                         <td>Terracota</td>
                         <td>M</td>
                         <td>
-                              <button className="buttonView">Abrir</button>
+                              <button className="buttonView">Visualizar</button>
                               <button className="buttonEdit">Editar</button>
                               <button className="buttonDelete">Excluir</button>
                         </td>
@@ -120,7 +127,7 @@ const Product = () => {
                         <td>Terracota</td>
                         <td>M</td>
                         <td>
-                              <button className="buttonView">Abrir</button>
+                              <button className="buttonView">Visualizar</button>
                               <button className="buttonEdit">Editar</button>
                               <button className="buttonDelete">Excluir</button>
                         </td>
@@ -133,7 +140,7 @@ const Product = () => {
                         <td>Terracota</td>
                         <td>M</td>
                         <td>
-                              <button className="buttonView">Abrir</button>
+                              <button className="buttonView">Visualizar</button>
                               <button className="buttonEdit">Editar</button>
                               <button className="buttonDelete">Excluir</button>
                         </td>
@@ -146,7 +153,7 @@ const Product = () => {
                         <td>Terracota</td>
                         <td>M</td>
                         <td>
-                              <button className="buttonView">Abrir</button>
+                              <button className="buttonView">Visualizar</button>
                               <button className="buttonEdit">Editar</button>
                               <button className="buttonDelete">Excluir</button>
                         </td>
@@ -159,7 +166,7 @@ const Product = () => {
                         <td>Terracota</td>
                         <td>M</td>
                         <td>
-                              <button className="buttonView">Abrir</button>
+                              <button className="buttonView">Visualizar</button>
                               <button className="buttonEdit">Editar</button>
                               <button className="buttonDelete">Excluir</button>
                         </td>
@@ -172,7 +179,7 @@ const Product = () => {
                         <td>Terracota</td>
                         <td>M</td>
                         <td>
-                              <button className="buttonView">Abrir</button>
+                              <button className="buttonView">Visualizar</button>
                               <button className="buttonEdit">Editar</button>
                               <button className="buttonDelete">Excluir</button>
                         </td>
@@ -185,7 +192,7 @@ const Product = () => {
                         <td>Terracota</td>
                         <td>M</td>
                         <td>
-                              <button className="buttonView">Abrir</button>
+                              <button className="buttonView">Visualizar</button>
                               <button className="buttonEdit">Editar</button>
                               <button className="buttonDelete">Excluir</button>
                         </td>
@@ -198,7 +205,7 @@ const Product = () => {
                         <td>Terracota</td>
                         <td>M</td>
                         <td>
-                              <button className="buttonView">Abrir</button>
+                              <button className="buttonView">Visualizar</button>
                               <button className="buttonEdit">Editar</button>
                               <button className="buttonDelete">Excluir</button>
                         </td>
@@ -211,7 +218,7 @@ const Product = () => {
                         <td>Terracota</td>
                         <td>M</td>
                         <td>
-                              <button className="buttonView">Abrir</button>
+                              <button className="buttonView">Visualizar</button>
                               <button className="buttonEdit">Editar</button>
                               <button className="buttonDelete">Excluir</button>
                         </td>
@@ -224,7 +231,7 @@ const Product = () => {
                         <td>Terracota</td>
                         <td>M</td>
                         <td>
-                              <button className="buttonView">Abrir</button>
+                              <button className="buttonView">Visualizar</button>
                               <button className="buttonEdit">Editar</button>
                               <button className="buttonDelete">Excluir</button>
                         </td>
@@ -237,7 +244,7 @@ const Product = () => {
                         <td>Terracota</td>
                         <td>M</td>
                         <td>
-                              <button className="buttonView">Abrir</button>
+                              <button className="buttonView">Visualizar</button>
                               <button className="buttonEdit">Editar</button>
                               <button className="buttonDelete">Excluir</button>
                         </td>
@@ -250,7 +257,7 @@ const Product = () => {
                         <td>Terracota</td>
                         <td>M</td>
                         <td>
-                              <button className="buttonView">Abrir</button>
+                              <button className="buttonView">Visualizar</button>
                               <button className="buttonEdit">Editar</button>
                               <button className="buttonDelete">Excluir</button>
                         </td>
@@ -263,7 +270,7 @@ const Product = () => {
                         <td>Terracota</td>
                         <td>M</td>
                         <td>
-                              <button className="buttonView">Abrir</button>
+                              <button className="buttonView">Visualizar</button>
                               <button className="buttonEdit">Editar</button>
                               <button className="buttonDelete">Excluir</button>
                         </td>

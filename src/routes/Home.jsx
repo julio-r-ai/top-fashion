@@ -27,7 +27,7 @@ const Home = () => {
 
     return(
         <div className="geral">
-            <motion.div animate={{  y: 30 }} transition={{ duration: 0.8 }}>
+            <motion.div className="title" animate={{  y: 30 }} transition={{ duration: 0.8 }}>
                 <h1>Home</h1>
             </motion.div>
 
