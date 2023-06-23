@@ -156,6 +156,13 @@ body{
   margin-top: 40px;
   background-color: rgb(255, 255, 255);
   padding: 30px;
+  position: fixed;
+  top: 47px;
+  bottom: 0;
+  right: 0;
+  background-color: rgb(0, 0, 0, 0.7);
+  z-index: 1000;
+  width: 100%;
 }
 
 .register h2{
@@ -167,7 +174,28 @@ body{
 }
 
 .registerInterno{
-  width: 500px;
+  width: 600px;
+  background-color: rgb(255, 255, 255);
+  padding: 20px 20px 20px 20px;
+  margin-top: 10%;
+  margin-left: 35%;
+}
+
+.registerInterno input{
+  width: 100%;
+}
+
+.registerInterno select{
+  width: 100%;
+}
+
+.closed1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.closed{
+  font-size: 45px;
 }
 
 label{
