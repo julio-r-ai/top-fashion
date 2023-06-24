@@ -1,4 +1,3 @@
-import '../index.css'
 import { VscAccount } from 'react-icons/vsc'
 
 const Header = () => {
