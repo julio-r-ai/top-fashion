@@ -29,7 +29,10 @@ const Product = () => {
                         <div><h4>Cor: Vermelho</h4></div>
                         <div><h4>Tamanho: P</h4></div>
                         <div></div>
-                        <div><p>Descrição: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam quis voluptates saepe ratione totam molestias et hic eveniet earum.</p>
+                        <div><p>Descrição: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam quis voluptates saepe ratione totam molestias et hic eveniet earum.</p></div>
+                        <div>
+                            <button>Fechar</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -94,7 +97,7 @@ const Product = () => {
             </motion.div>
             <formInclud/>  
         </div>
-    </div>
+    
    )
 }
 

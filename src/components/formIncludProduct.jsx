@@ -54,6 +54,10 @@ const Modal = ({isOpen, setModalOpen}) => {
                          </select>
                     </div>
                     <div>
+                         <label htmlFor="">Descrição</label>
+                         <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
                          <label htmlFor="">Adicione uma imagem</label>
                          <input type="file" />
                     </div>
