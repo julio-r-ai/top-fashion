@@ -224,7 +224,7 @@ input, select{
   height:30px;
   font-size: 18px;
   padding-left: 8px;
-  padding-right: 8px;
+  padding-right: 8px;  
 }
 
 button{
@@ -267,6 +267,13 @@ button:hover{
 
 .searchInter{
   margin-bottom: 50px;
+}
+
+.searchInter input{
+  width: 400px;
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .card{
@@ -359,6 +366,7 @@ th{
 
 .viewProduct2{
   width: 800px;
+  height: 525px;
   background-color: rgb(255, 255, 255);
   padding: 0px 20px 0px 0px;
   margin-top: 10%;
@@ -375,4 +383,13 @@ th{
 
 .viewProduct2 img{
   width: 350px;
+}
+
+
+.buttonClient button{
+  margin-right: 100%;
+  margin-bottom: 40px;
+  height: 50px;
+  font-size: 18px;
+  background-color: #6495ED;  
 }

@@ -2,12 +2,13 @@ import React, { useState } from "react";
 import '../App.css'
 import { motion } from "framer-motion";
 import ModalIncludPRoduct from "../components/formIncludProduct"
+import ViewProduct from "../components/viewProduct";
 
 import image5 from '../images/img3.jpg'
 
-
 const Product = () => {
     const [openModal, setOpenModal] = useState(false)
+    const [openViewProduct, setOpenViewProduct] = useState(false)
 
     return(
        <div className="geral">
@@ -17,25 +18,7 @@ const Product = () => {
 
             <ModalIncludPRoduct isOpen={openModal} setModalOpen={() => {setOpenModal(!openModal)}}/>
 
-            <div className="vewProduct1">
-                <div className="viewProduct2">
-                    <div>
-                        <img src={ image5 } alt="imagem" />
-                    </div>
-                    <div>
-                        <div><h4>COD: 0001</h4></div>
-                        <div><h2>Vestido Alça Cruzada - Vermelho</h2></div>
-                        <div><h5>R$ 180.00</h5></div>
-                        <div><h4>Cor: Vermelho</h4></div>
-                        <div><h4>Tamanho: P</h4></div>
-                        <div></div>
-                        <div><p>Descrição: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam quis voluptates saepe ratione totam molestias et hic eveniet earum.</p></div>
-                        <div>
-                            <button>Fechar</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <ViewProduct isOpen={openViewProduct} setViewProductOpen={() => {setOpenViewProduct (!openViewProduct)}}/>
 
             <motion.div className="search">
                 <div className="buttonProduto">
@@ -43,11 +26,11 @@ const Product = () => {
                 </div>
 
                 <div className="searchInter">
-                <label htmlFor="">Fazer busca</label>
-                <input type="text"></input>
-                <button>Buscar</button>
+                    <label htmlFor="">Fazer busca</label>
+                    <input type="text"></input>
+                    <button>Buscar</button>
                 </div>
-
+                
                 {/* Card */}
                 {/* <div className="cards">
                 <div className="card">
@@ -87,7 +70,7 @@ const Product = () => {
                             <td>Terracota</td>
                             <td>M</td>
                             <td>
-                                <button className="buttonView">Visualizar</button>
+                                <button className="buttonView"  onClick={()=>{setOpenViewProduct(true)}}>Visualizar</button>
                                 <button className="buttonEdit">Editar</button>
                                 <button className="buttonDelete">Excluir</button>
                             </td>
@@ -95,7 +78,6 @@ const Product = () => {
                 </tbody>
                 </table>
             </motion.div>
-            <formInclud/>  
         </div>
     
    )
