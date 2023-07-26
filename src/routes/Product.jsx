@@ -26,7 +26,7 @@ const Product = () => {
 
                 <div className="searchInter">
                     <label htmlFor="">Fazer busca</label>
-                    <input type="text"></input>
+                    <input type="text" placeholder="Pesquise por ID, Descrição ou Cor"></input>
                     <button>Buscar</button>
                 </div>
                 

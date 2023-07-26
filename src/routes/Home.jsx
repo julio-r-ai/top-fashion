@@ -46,19 +46,10 @@ const Home = () => {
             <div className="boxs">
 
                 <motion.div animate={{y:200}} >
-                    <Link className="linksHome"  to="/rents">
-                        <div className="box">
-                            <MdCalendarToday/>
-                            <h4>Acessar Alugueis</h4>
-                        </div>
-                    </Link>
-                </motion.div>  
-
-                <motion.div animate={{y:200}} >
                     <Link className="linksHome"  to="/product">
                         <div className="box">
                             <BsFillArchiveFill/>
-                            <h4>Acessar Produtos</h4>
+                            <h4>Produtos</h4>
                         </div>
                     </Link> 
                 </motion.div>
@@ -67,10 +58,19 @@ const Home = () => {
                     <Link className="linksHome"  to="/client">
                         <div className="box">
                             <MdOutlineAccountBox/>
-                            <h4>Acessar Clientes</h4>
+                            <h4>Clientes</h4>
                         </div>
                     </Link>
                 </motion.div> 
+
+                <motion.div animate={{y:200}} >
+                    <Link className="linksHome"  to="/rents">
+                        <div className="box">
+                            <MdCalendarToday/>
+                            <h4>Alugueis</h4>
+                        </div>
+                    </Link>
+                </motion.div>  
 
                 <motion.div animate={{y:200}} >
                     <Link className="linksHome"  to="/configuration">

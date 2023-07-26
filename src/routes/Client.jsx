@@ -3,7 +3,8 @@ import '../App.css'
 import { motion } from "framer-motion";
 
 const Client = () => {
-   return(
+
+    return(
        <div className="geral">
             <motion.div className="title" animate={{  y: 30 }} transition={{ duration: 0.8 }}>
                 <h1>Cliente</h1>
@@ -11,32 +12,15 @@ const Client = () => {
 
             <motion.div className="search">
                 <div className="buttonClient">
-                    <button onClick={()=>{setOpenModal(true)}}>Cadastra cliente</button>
+                    <button>Incluir Cliente</button>
                 </div>
+
 
                 <div className="searchInter">
                     <label htmlFor="">Fazer busca</label>
-                    <input type="text"></input>
+                    <input type="text" placeholder="Pesquise por ID, Nome ou CPF"></input>
                     <button>Buscar</button>
                 </div>
-                
-                {/* Card */}
-                {/* <div className="cards">
-                <div className="card">
-                        <div>
-                            <img src={imagem1} alt="" />
-                        </div>
-                        <div>
-                            <span>Descricao</span>
-                        </div>
-                        <div>
-                            <span>R$ preço</span>
-                        </div>
-                        <div>
-                            <button>Alugar</button>
-                        </div>
-                </div>
-                </div> */}
 
                 <table>
                 <thead>
@@ -54,7 +38,7 @@ const Client = () => {
                             <th>Telefone</th>
                             <th>Sexo</th>
                             <th>CPF</th>
-                            <th>Acoes</th>
+                            <th>Ações</th>
                         </tr>
                 </thead>
                 <tbody>
