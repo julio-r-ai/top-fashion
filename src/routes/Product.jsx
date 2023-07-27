@@ -2,22 +2,18 @@ import React, { useState } from "react";
 import '../App.css'
 import { motion } from "framer-motion";
 import ModalIncludPRoduct from "../components/formIncludProduct"
-import ViewProduct from "../components/viewProduct";
-
-
+import { Link } from "react-router-dom";
 
 const Product = () => {
     const [openModal, setOpenModal] = useState(false)
-    const [openViewProduct, setOpenViewProduct] = useState(false)
-
+    
     return(
        <div className="geral">
             <motion.div className="title" animate={{  y: 30 }} transition={{ duration: 0.8 }}>
                 <h1>Produtos</h1>
             </motion.div>
 
-            <ModalIncludPRoduct isOpen={openModal} setModalOpen={() => {setOpenModal(!openModal)}}/>
-
+            <ModalIncludPRoduct isOpenIncluirProduct={openModal} setIncluirProductOpen={() => {setOpenModal(!openModal)}}/>
 
             <motion.div className="search">
                 <div className="buttonProduto">
@@ -52,7 +48,9 @@ const Product = () => {
                                 <td>Terracota</td>
                                 <td>M</td>
                                 <td>
-                                    <button className="buttonView">Visualizar</button>
+                                    <Link to={'/ViewProduct'}>
+                                        <button className="buttonView" >Visualizar</button>
+                                    </Link>
                                     <button className="buttonEdit">Editar</button>
                                     <button className="buttonDelete">Excluir</button>
                                 </td>

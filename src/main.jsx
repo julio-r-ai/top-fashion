@@ -9,6 +9,7 @@ import Client from './routes/Client.jsx';
 import Rents from './routes/Rents.jsx';
 import Product from './routes/Product.jsx';
 import Configuratin from './routes/Configuration.jsx'
+import ViewProduct from './components/viewProduct.jsx';
 import ErrorPage from './routes/ErrorPage.jsx';
 
 const router = createBrowserRouter([
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
       {
         path: "configuration",
         element: <Configuratin />,
+      },
+      {
+        path: "viewProduct",
+        element: <ViewProduct />,
       }
     ]
   },
